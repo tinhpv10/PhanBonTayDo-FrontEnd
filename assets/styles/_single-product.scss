@@ -1,0 +1,31 @@
+.primary-menu {
+	ul {
+		a{
+			color: #333;
+		}
+		//code
+		li {
+			//code
+		}
+		>li{
+			//menu danh mục sản phẩm
+			&:first-child{
+				>ul{
+					>li{
+						>a{
+
+						}
+					}
+				}
+			}
+
+			>ul{
+				>li{
+					>a{
+
+					}
+				}
+			}
+		}
+	}
+}
