@@ -1,7 +1,7 @@
 <?php
 define('ASSETS', 'assets');
 $components = [
-    'products',
+    'home-blogs',
 ];
 require_once 'header.php';
 require_once 'functions.php';
