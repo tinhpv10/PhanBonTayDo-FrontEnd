@@ -3,7 +3,7 @@
 		<div class="title text-center">
 			<h4 class="fs-1  fw-bold">Tin tức</h4>
 		</div>
-		<div class="blogs-box">
+		<div class="blogs-box-home">
 			<?php
 			for ($i = 0 ; $i < 6 ; $i++) {
 				?>

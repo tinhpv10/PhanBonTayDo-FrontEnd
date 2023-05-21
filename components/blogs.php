@@ -1,98 +1,61 @@
 <section>
-    <div class="container-fluid p-4" style="background: url('<?= ASSETS ?>/images/flowers-shoppage.jpg')">
+    <div class="container-fluid p-4" style="background: url('<?= ASSETS ?>/images/rau2.jpg')">
 	    <div class="blogs text-center">
-			<h4 class="text-light fs-2 fw-semibold">Blogs</h4>
+			<h4 class="text-light fs-2 fw-semibold">Tin Tức</h4>
 		    <nav aria-label="breadcrumb" class="d-flex justify-content-center">
 			    <ol class="breadcrumb mt-3 mt-sm-0 text-center">
 				    <li class="breadcrumb-item"><a href="#" class="text-light">TRANG CHỦ</a></li>
-				    <li class="breadcrumb-item active text-light" aria-current="page">LỜI CỦA HOA</li>
+				    <li class="breadcrumb-item active text-light" aria-current="page">TIN TỨC</li>
 			    </ol>
 		    </nav>
 	    </div>
     </div>
 	<div class="content mt-5">
 		<div class="container">
-			<div class="row pt-5">
-				<div class="col-sm-9 col-12">
-					<div class="d-flex justify-content-center">
-						<div class="type-box bg-success text-center text-light pt-1">LỜI CỦA HOA</div>
-					</div>
-					<div class="blogs-title mt-5">
-						<h4 class="fs-2">Đặt hoa tươi sinh nhật quận Gò Vấp Bảo Hân giá rẻ giao hàng miễn phí</h4>
-					</div>
-					<div class="blogs-content">
-						Viết nội dung tại đây
-					</div>
-				</div>
-				<div class="col-sm-3 d-none d-sm-block">
-					<div class="blogs-box">
-						<div class="card mb-3 border-0">
-							<div class="row g-0 p-0 m-0">
-								<div class="col-sm-4">
-									<img src="<?= ASSETS ?>/images/hoa-sinh-nhat-gia-re-quan-tan-binh-75x60.jpg" class="" alt="...">
-								</div>
-								<div class="col-md-8">
-									<div class="card-body p-0 m-0">
-										<p class="card-text">Đặt hoa tươi sinh nhật quận Tân Bình Bảo Hân giá rẻ giao hàng miễn phí</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<hr>
-						<div class="card mb-3 border-0">
-							<div class="row g-0 p-0 m-0">
-								<div class="col-sm-4">
-									<img src="<?= ASSETS ?>/images/hoa-sinh-nhat-gia-re-quan-tan-binh-75x60.jpg" class="" alt="...">
-								</div>
-								<div class="col-md-8">
-									<div class="card-body p-0 m-0">
-										<p class="card-text">Đặt hoa tươi sinh nhật quận Tân Bình Bảo Hân giá rẻ giao hàng miễn phí</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<hr>
-						<div class="card mb-3 border-0">
-							<div class="row g-0 p-0 m-0">
-								<div class="col-sm-4">
-									<img src="<?= ASSETS ?>/images/hoa-sinh-nhat-gia-re-quan-tan-binh-75x60.jpg" class="" alt="...">
-								</div>
-								<div class="col-md-8">
-									<div class="card-body p-0 m-0">
-										<p class="card-text">Đặt hoa tươi sinh nhật quận Tân Bình Bảo Hân giá rẻ giao hàng miễn phí</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<hr>
-						<div class="card mb-3 border-0">
-							<div class="row g-0 p-0 m-0">
-								<div class="col-sm-4">
-									<img src="<?= ASSETS ?>/images/hoa-sinh-nhat-gia-re-quan-tan-binh-75x60.jpg" class="" alt="...">
-								</div>
-								<div class="col-md-8">
-									<div class="card-body p-0 m-0">
-										<p class="card-text">Đặt hoa tươi sinh nhật quận Tân Bình Bảo Hân giá rẻ giao hàng miễn phí</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<hr>
-						<div class="card mb-3 border-0">
-							<div class="row g-0 p-0 m-0">
-								<div class="col-sm-4">
-									<img src="<?= ASSETS ?>/images/hoa-sinh-nhat-gia-re-quan-tan-binh-75x60.jpg" class="" alt="...">
-								</div>
-								<div class="col-md-8">
-									<div class="card-body p-0 m-0">
-										<p class="card-text">Đặt hoa tươi sinh nhật quận Tân Bình Bảo Hân giá rẻ giao hàng miễn phí</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			<div class="title text-left">
+				<h4 class="fs-title  fw-bold">Tin tức</h4>
 			</div>
+			<div class="blogs-box row">
+				<?php
+				for ($i = 0 ; $i < 11 ; $i++) {
+					?>
+					<div class="item-slider col-lg-3 col-md-4 col-sm-6 col-10">
+						<div class="item position-relative">
+							<div class="item-images">
+								<a href="#"><img src="<?= ASSETS ?>/images/anh 2.jpg" alt="hoa-sinh-nhat-gia-re-quan-tan-binh" class="img-fluid"></a>
+							</div>
+							<h2 class="item-name">
+								<a href="">
+									Tập đoàn nông nghiệp Con Cò Vàng Hi-Tech được vinh danh Top 10 Thương hiệu xuất sắc châu Á.
+								</a>
+							</h2>
+							<p class="item-description p-2 pl-md-0">
+								Chào mừng Ngày Giải phóng miền Nam 30/4 và ngày Quốc tế lao động 1/5, Tập đoàn nông nghiệp Con Cò Vàng Hi-Tech xin trân trọng thông báo lịch nghỉ...
+							</p>
+						</div>
+					</div>
+					<?php
+				}
+				?>
+			</div>
+			<nav aria-label="Page navigation example" class="navigation">
+				<ul class="pagination">
+					<li class="page-item">
+						<a class="page-link" href="#" aria-label="Previous">
+							<span aria-hidden="true">&laquo;</span>
+						</a>
+					</li>
+					<li class="page-item"><a class="page-link active" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">4</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#" aria-label="Next">
+							<span aria-hidden="true">&raquo;</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
 	</div>
 </section>

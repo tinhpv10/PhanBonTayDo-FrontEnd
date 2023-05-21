@@ -32,3 +32,150 @@
 		}
 	}
 }
+
+.site-container{
+	section{
+		.p-4{
+			position: relative;
+			height: 300px;
+			padding: unset !important;
+
+			.blogs{
+				content: '';
+				position: absolute;
+				opacity: 2;
+				background: rgba(0, 0, 0, .36);
+				width: 100%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+
+				.d-flex{
+					.breadcrumb{
+						.breadcrumb-item{
+							.text-light{
+								text-decoration: none;
+							}
+							&::before{
+								color: #ffffff;
+							}
+						}
+					}
+				}
+
+			}
+		}
+
+		.content{
+			margin-top: 2rem !important;
+
+			.container{
+				.title{
+					.fs-title{
+						font-size: 32px;
+						font-weight: bold;
+						margin: 10px 0 20px 0;
+						padding-left: 0;
+						color: #E81F24;
+
+					}
+				}
+
+				.blogs-box{
+					.item-slider{
+						.item{
+							margin-top: 20px;
+
+							&-images{
+								width: 100%;
+								height: 145px;
+								overflow: hidden;
+
+								img{
+									width: 100%;
+									transition: transform .9s;
+
+									&:hover{
+										-ms-transform: scale(1.5);
+										-webkit-transform: scale(1.5);
+										transform: scale(1.2);
+
+									}
+								}
+							}
+
+							&-name{
+								height: 75px;
+								overflow: hidden;
+
+								&:hover a{
+									color: #E81F24;
+									transition: ease-out 0.2s;
+								}
+
+								a{
+									color: #000;
+									margin-top: 10px;
+									display: table;
+									font-size: 18px;
+									text-align: justify;
+									text-decoration: none;
+									font-weight: 700;
+
+								}
+							}
+
+							&-description{
+								padding: unset !important;
+								text-align: justify;
+							}
+						}
+					}
+				}
+
+				.navigation{
+					margin-top: 40px;
+
+					ul{
+						li{
+							--bs-pagination-border-color: none;
+
+							a{
+								border: 1px solid #E81F24;
+
+							}
+
+							.active{
+								background: #E81F24;
+								color: #ffffff;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 575px) {
+
+	.content {
+		margin-top: 2rem !important;
+
+		.container {
+			.title{
+				.fs-title{
+					margin-left: 8% !important;
+				}
+			}
+			.blogs-box {
+				.col-10 {
+					margin: auto;
+
+				}
+			}
+		}
+	}
+}
