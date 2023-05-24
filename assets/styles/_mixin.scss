@@ -9,3 +9,13 @@
 	text-overflow: ellipsis;
 	height: ($fontSize * $lineHeight * $line)+px;
 }
+
+.expert {
+	@include textWithEllipsis(13, 1.2, 3);
+}
+
+@mixin coverImage() {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
