@@ -1,0 +1,165 @@
+footer{
+  background-color: #F8F8F8;
+
+  .email-footer-color{
+    background-color: #009B49;
+
+    .container{
+      color: white;
+
+      .row{
+
+        .mail-image{
+          vertical-align: middle;
+          position: absolute;
+          z-index: 4;
+          top: 14px;
+
+
+          @media only screen and (max-width: 991px){
+            display: none;
+          }
+
+
+
+        }
+
+
+        .column-3{
+
+          div{
+
+            .btn{
+              background-color: #FBD947;
+              width: 60px;
+
+              i{
+                color: white;
+              }
+            }
+          }
+        }
+        .column-4{
+
+            .headphone{
+              display: flex;
+
+              i{
+                font-size: 40px;
+              }
+              h5{
+                margin-left: 20px;
+              }
+              @media only screen and (max-width: 991px){
+                display: flex;
+                justify-content: center;
+
+                i{
+                  font-size: 30px;
+                }
+                h5{
+                  margin-left: 10px;
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+  .section-footer{
+
+    .container{
+
+      .row{
+        .column{
+
+          @media only screen and (max-width: 991px){
+            text-align: left;
+            font-size: 18px;
+
+          }
+        }
+
+      }
+    }
+
+  }
+
+  section{
+
+    .container{
+
+      .row{
+
+        .column{
+
+          h6{
+            color: #009B49;
+          }
+
+          h5{
+            color: #009B49;
+          }
+
+          .type-bank{
+
+
+            .atm{
+              text-decoration: none;
+
+              img{
+                width: 50px;
+
+              }
+
+            }
+          }
+
+
+          p{
+            a{
+              text-decoration: none;
+            }
+          }
+          .online{
+            width: 150px;
+          }
+        }
+      }
+    }
+    .container{
+
+      .row{
+        .column{
+
+          @media only screen and (max-width: 991px){
+            text-align: left;
+            font-size: 18px;
+          }
+        }
+
+      }
+    }
+  }
+
+  .bottom-footer{
+    background-color: #009B49;
+    color: white;
+
+    ul{
+      .font-footer{
+        font-weight: lighter;
+        li{
+
+          a{
+            text-decoration: none;
+
+          }
+
+        }
+      }
+
+    }
+
+  }
+}
