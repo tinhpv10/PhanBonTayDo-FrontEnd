@@ -1,0 +1,108 @@
+@mixin btn-category() {
+	background-color: white;
+	border-color: white;
+	color: #000;
+}
+
+.title-section {
+	.title {
+		flex: 1;
+	}
+
+	.list-categories {
+		li {
+			white-space: nowrap;
+			width: fit-content;
+
+			&:first-child {
+				.btn-category {
+					@include btn-category();
+				}
+			}
+
+			.btn-category {
+				background-color: $gray-110;
+				border-color: $gray-110;
+				color: #FFF;
+				display: block;
+
+				&:hover {
+					@include btn-category();
+				}
+			}
+		}
+
+	}
+}
+
+
+.product-item {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+
+	&:hover {
+		box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+		background-color: #f1f1f1;
+	}
+
+	.box-img {
+		height: 245px;
+		overflow: hidden;
+		@include mobile {
+			height: 150px;
+		}
+
+		img {
+			@include coverImage();
+		}
+	}
+
+	.card-title {
+		@include textWithEllipsis(16, 1.2, 2);
+	}
+
+	.reviews {
+		.stars {
+			display: inline-block;
+			list-style: none;
+			padding: 0;
+			@include mobile {
+				font-size: 0.75rem;
+			}
+
+			li {
+				display: inline-block;
+
+				.bx {
+					color: $secondary;
+				}
+			}
+		}
+	}
+
+	.sale {
+		font-size: 0.78rem;
+		width: 2.42rem;
+		height: 1.071rem;
+		display: inline-block;
+	}
+
+	.price-product {
+		font-size: 1.28rem;
+		@include mobile {
+			font-size: 1rem;
+		}
+
+		ins {
+			font-weight: bold;
+			text-decoration: none;
+		}
+	}
+
+	.btn-cart {
+		font-size: 1.78rem;
+	}
+}

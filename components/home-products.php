@@ -1,33 +1,79 @@
-<section class="home-products mt-5 mb-5">
-    <div class="container">
-        <div class="title text-center">
-            <p class="text-danger fw-semibold">HOA TƯƠI BẢO HÂN</p>
-            <h4 class="fs-1  fw-bold">Mẫu hoa mới nhất</h4>
-	        <p class="">Là những mẫu hoa mới hàng ngày được cập nhật tại cửa hàng hoa tươi Bảo Hân</p>
-        </div>
-	    <div class="products row mt-5 mb-5">
-		    <?php
-		        for ($i = 0 ; $i < 8 ; $i++) {
-					?>
-			        <div class="col-sm-3 col-6 mb-4">
-				        <div class="item">
-					        <a href="#" class="search text-center p-2 m-2"><i class='bx bx-search'></i></a>
-					        <div class="card border-0">
-						        <a href="#"><img src="<?= ASSETS ?>/images/bo-hong-do-600x600.jpg" alt="flowers-banner-large-min" class="img-fluid"></a>
-						        <div class="card-body text-center">
-							        <div class="item-title">
-								        <a href="#" class="text-decoration-none">Bó hoa tặng em</a>
-							        </div>
-							        <div class="item-price">
-								        <span class="text-success">700,000đ</span>
-							        </div>
-						        </div>
-					        </div>
-				        </div>
-			        </div>
-					<?php
-		        }
-		    ?>
-	    </div>
-    </div>
+<section class="section-product">
+	<div class="container-xl">
+		<div class="banner-product">
+			<img class="w-100" src="../assets/images/ban-chay_586_1200_1.svg" alt="Responsive image">
+		</div>
+	</div>
+	<div class="container-xl">
+		<div class="bg-secondary rounded-3 p-3">
+			<div class="py-3 d-flex flex-column flex-lg-row align-items-center justify-content-between">
+				<h3 class="text-dark mb-0 title">SẢN PHẨM NỔI BẬT</h3>
+				<ul class="list-categories d-none d-lg-flex justify-content-lg-end align-content-lg-center">
+					<li>
+						<a class="btn-category btn btn-light rounded-pill mx-1" href="">Sản phẩm HOT</a>
+					</li>
+					<li>
+						<a class="btn-category btn btn-light rounded-pill mx-1" href="">Sản phẩm mua nhiều</a>
+					</li>
+					<li>
+						<a class="btn-category btn btn-light rounded-pill mx-1" href="">Sản phẩm mới</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="list-categories-mobile mb-3">
+				<li>
+					<a class="btn-category btn btn-light rounded-pill mx-1" href="">Sản phẩm HOT</a>
+				</li>
+				<li>
+					<a class="btn-category btn btn-light rounded-pill mx-1" href="">Sản phẩm mua nhiều</a>
+				</li>
+				<li>
+					<a class="btn-category btn btn-light rounded-pill mx-1" href="">Sản phẩm mới</a>
+				</li>
+			</ul>
+			<div class="list-product">
+                <?php
+                for ($i = 0; $i < 5; $i ++){
+                    ?>
+					<div class="card mt-1 product-item">
+						<div class="box-img p-1">
+							<img src="/assets/images/bo-hong-do.jpg" class="card-img-top" alt="...">
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">
+								<a href="">
+									Phân bón lá SITTO FOPRO 20-20-20
+								</a>
+							</h5>
+							<div class="reviews">
+								<ul class="stars">
+									<li><i class='bx bxs-star'></i></li>
+									<li><i class='bx bxs-star'></i></li>
+									<li><i class='bx bxs-star'></i></li>
+									<li><i class='bx bxs-star'></i></li>
+									<li><i class='bx bx-star'></i></li>
+								</ul>
+								<span>(99)</span>
+							</div>
+							<div class="d-flex justify-content-between price-custom">
+								<del>100.000đ</del>
+								<span class="bg-secondary text-center text-dark sale rounded-pill">-20%</span>
+							</div>
+							<div class="price-product">
+								<ins>800.000đ</ins>
+							</div>
+							<div class="product-footer ">
+								<div class="d-flex justify-content-between align-items-center">
+									<a class="text-decoration-none text-primary" href=""><i class='bx bx-plus-circle'></i> So sánh</a>
+									<a class="text-primary btn-cart" href=""><i class='bx bxs-cart-alt'></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+                    <?php
+                }
+                ?>
+			</div>
+		</div>
+	</div>
 </section>
