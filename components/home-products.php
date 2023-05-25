@@ -33,7 +33,7 @@
 			</ul>
 			<div class="list-product">
                 <?php
-                for ($i = 0; $i < 5; $i ++){
+                for ($i = 0; $i < 10; $i ++){
                     ?>
 					<div class="card mt-1 product-item">
 						<div class="box-img p-1">
