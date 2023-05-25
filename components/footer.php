@@ -6,7 +6,7 @@
             <!-- Grid row -->
             <div class="row mt-2">
                 <!-- Grid column -->
-                <div class="col-md-1 col-lg-1 col-xl-2 mx-auto">
+                <div class="col-md-1 col-lg-1 col-xl-2 mx-auto header-mail-icon">
                     <img class="mail-image" src="../assets/images/ci_mail-open.svg" alt="">
                 </div>
                 <!-- Grid column -->
