@@ -1,0 +1,51 @@
+.news-home{
+
+  .navbar{
+
+    .container-fluid{
+
+      .navbar-brand{
+        text-align: center;
+        width: 120px;
+        border-bottom: 3px solid #009B49;
+
+      }
+      .title-news{
+
+
+        span{
+
+          a{
+
+            i{
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .container-fluid{
+
+    .box-news{
+
+      .content-right{
+
+        .row{
+
+          .col-8{
+
+            .content-right{
+
+              p{
+                font-size: 14px;
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
