@@ -9,18 +9,50 @@ body section {
 }
 
 .banner-box {
-	.images-banner {
-		.content-box {
-			position: relative;
+	.container {
+		@media only screen and (max-width: 450px){
+			display: block !important;
+		}
+		.images-banner {
+			.content-box {
+				width: 100%;
+				height: 100%;
+				position: relative;
+				.carousel {
+					height: 100%;
+					.carousel-inner {
+						height: 100%;
+						.carousel-item {
+							height: 100%;
+							img {
+								width: 100%;
+								height: 100%;
+							}
+						}
+					}
+				}
 
-			.content {
-				position: absolute;
-				top: 20px;
-				left: 20px;
-				bottom: 20px;
-				right: 20px;
-				border: 5px solid rgba(255,255,255,0.3);
+				//.content {
+				//	position: absolute;
+				//	top: 20px;
+				//	left: 20px;
+				//	bottom: 20px;
+				//	right: 20px;
+				//	border: 5px solid rgba(255,255,255,0.3);
+				//}
+			}
+		}
+		.images-banner {
+			.content-box-img {
+				height: auto;
+				@media only screen and (max-width: 450px){
+					display: none;
+				}
+				img{
+				}
+
 			}
 		}
 	}
+
 }
