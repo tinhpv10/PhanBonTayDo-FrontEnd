@@ -4,10 +4,8 @@
             <a class="navbar-brand mt-1" href="#">
                 <h4><b>TIN TỨC</b></h4>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="title-news collapse navbar-collapse" id="navbarText" >
+
+            <div class="title-news collapse navbar-collapse"  >
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link text-secondary" href="#">Khuyến mãi</a>
