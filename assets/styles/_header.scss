@@ -1,0 +1,72 @@
+header {
+  background: linear-gradient(180deg, #009b49 0%, #009b49 48.44%, #009b49 100%);
+  width: 100%;
+  height: 250px;
+  .bxs-phone-call {
+    font-size: 1.8rem;
+  }
+  .name-shop {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+  }
+  .bxs-bell-ring {
+    font-size: 2.3rem;
+  }
+  .select {
+    height: 3.78rem;
+    border-radius: 0.5rem 0 0 0.5rem !important;
+    &:focus {
+      box-shadow: unset;
+    }
+  }
+  .search {
+    width: 86% !important;
+    border: none !important;
+    border-radius: 0 !important;
+    &:focus {
+      box-shadow: unset;
+    }
+  }
+  .search-group {
+    color: #fce581;
+    border-left: none !important;
+    background-color: white;
+    border-radius: 0 0.5rem 0.5rem 0 !important;
+  }
+  form {
+    height: 3.78rem;
+  }
+  .input-group {
+    height: 3.78rem;
+  }
+  .register {
+    height: 3.78rem;
+    font-size: 0.8rem;
+    color: #009b49;
+  }
+  .nav-menu {
+    background: linear-gradient(
+                    180deg,
+                    #009b49 0%,
+                    #009b49 48.44%,
+                    #009b49 100%
+    );
+  }
+  .nav-link {
+    color: white;
+  }
+  .center-text {
+    padding-top: 1.3rem !important;
+  }
+  .nav-item {
+    margin-left: 1rem;
+  }
+  .navbar-brand {
+    width: 14.7rem;
+  }
+  .contact {
+    width: 1rem !important;
+  }
+}
