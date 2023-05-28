@@ -8,26 +8,29 @@
 	    </div>
 	    <div class="content d-flex justify-content-center m-0 p-0">
 		    <div class="content-images">
-			    <a href="#"><img src="<?= ASSETS ?>/images/wd-inst-flowers-3-opt.jpg" alt="" class="img-fluid"></a>
+			    <a href="#"><img src="<?= ASSETS ?>/images/sanpham_1.jpg" alt="" class="img-fluid"></a>
 		    </div>
 		    <div class="content-images">
-			    <a href="#"><img src="<?= ASSETS ?>/images/wd-inst-flowers-3-opt.jpg" alt="" class="img-fluid"></a>
+			    <a href="#"><img src="<?= ASSETS ?>/images/sanpham_2.jpg" alt="" class="img-fluid"></a>
 		    </div>
 		    <div class="content-images">
-			    <a href="#"><img src="<?= ASSETS ?>/images/wd-inst-flowers-3-opt.jpg" alt="" class="img-fluid"></a>
+			    <a href="#"><img src="<?= ASSETS ?>/images/sanpham_3.jpg" alt="" class="img-fluid"></a>
 		    </div>
 		    <div class="content-images">
-			    <a href="#"><img src="<?= ASSETS ?>/images/wd-inst-flowers-3-opt.jpg" alt="" class="img-fluid"></a>
+			    <a href="#"><img src="<?= ASSETS ?>/images/sanpham_4.jpg" alt="" class="img-fluid"></a>
 		    </div>
 		    <div class="content-images">
-			    <a href="#"><img src="<?= ASSETS ?>/images/wd-inst-flowers-3-opt.jpg" alt="" class="img-fluid"></a>
+			    <a href="#"><img src="<?= ASSETS ?>/images/sanpham_5.jpg" alt="" class="img-fluid"></a>
 		    </div>
 		    <div class="content-images">
-			    <a href="#"><img src="<?= ASSETS ?>/images/wd-inst-flowers-3-opt.jpg" alt="" class="img-fluid"></a>
+			    <a href="#"><img src="<?= ASSETS ?>/images/sanpham_6.jpg" alt="" class="img-fluid"></a>
 		    </div>
 		    <div class="content-images">
-			    <a href="#"><img src="<?= ASSETS ?>/images/wd-inst-flowers-3-opt.jpg" alt="" class="img-fluid"></a>
+			    <a href="#"><img src="<?= ASSETS ?>/images/sanpham_7.jpg" alt="" class="img-fluid"></a>
 		    </div>
+            <div class="content-images">
+                <a href="#"><img src="<?= ASSETS ?>/images/sanpham_8.jpg" alt="" class="img-fluid"></a>
+            </div>
 	    </div>
     </div>
 </section>

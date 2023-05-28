@@ -14,25 +14,25 @@ $images = [
 ?>
 <section class="section-products">
 	<div class="container">
-		<h2 class="title-section d-flex justify-content-between align-items-center">
-			<span>NHỰA THÔNG MINH POLYCARBONATE ĐẶC</span><a href="">Xem tất cả</a>
+		<h2 class="title-section title-section-normal d-flex justify-content-between align-items-center">
+			<span>SẢN PHẨM BÁN CHẠY</span><a href="">Xem tất cả >></a>
 		</h2>
-		<div class="d-flex flex-wrap justify-content-between product-list">
-            <?php for ($i = 0; $i < 10; $i ++): ?>
-				<div class="product-item">
-					<div class="box-img">
-						<a href="">
-							<img src="<?= $images[$i] ?>" alt="">
-						</a>
-					</div>
-					<div class="box-info text-center p-3">
-						<h3 class="title-product">
-							<a class="text-decoration-none" href="">Nhựa thông minh đặc 1.6 ly</a>
-						</h3>
-						<a href="" class="btn text-white btn-sm btn-primary">Mua hàng</a>
-					</div>
-				</div>
+        <div class="row">
+            <?php for($i = 0; $i < 8; $i++): ?>
+            <div class="col-3 justify-content-between product-list card-prod">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://nongnghiepdep.com/wp-content/uploads/2023/04/green-forever.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <p class="card-text">Mã SP: KOBE</p>
+                        <h6 class="card-title">
+                            <a class="text-decoration-none name-prod" href="#">Green Forever - Stronger Thrive 2 Trong 1</a>
+                        </h6>
+                        <p class="card-text">Chỉ từ: <span>115.000đ</span></p>
+                        <a href="#" class="btn btn-primary">Đặt Mua</a>
+                    </div>
+                </div>
+            </div>
             <?php endfor; ?>
-		</div>
+        </div>
 	</div>
 </section>
