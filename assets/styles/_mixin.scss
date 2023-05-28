@@ -7,7 +7,7 @@
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	height: ($fontSize * $lineHeight * $line)+px;
+	max-height: ($fontSize * $lineHeight * $line)+px;
 }
 
 .expert {
