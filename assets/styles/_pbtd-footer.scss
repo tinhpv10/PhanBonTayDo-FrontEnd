@@ -1,165 +1,63 @@
-footer{
-  background-color: #F8F8F8;
+footer {
+	background-color: #F8F8F8;
 
-  .email-footer-color{
-    background-color: #009B49;
+	.mail-image {
+		position: relative;
 
-    .container{
-      color: white;
+		img {
+			vertical-align: middle;
+			position: absolute;
+			top: -17px;
+		}
+	}
 
-      .row{
+	.headphone {
+		display: flex;
 
-        .mail-image{
-          vertical-align: middle;
-          position: absolute;
-          z-index: 4;
-          top: 14px;
-
-
-          @media only screen and (max-width: 991px){
-            display: none;
-          }
+		i {
+			font-size: 2.85rem;
+		}
 
 
+		@media only screen and (max-width: 991px) {
+			display: flex;
+			justify-content: center;
 
-        }
+			i {
+				font-size: 30px;
+			}
+			h5 {
+				margin-left: 10px;
+			}
+		}
+	}
 
+	.footer-menu {
+		li {
+			margin-bottom: 1rem;
+			font-size: .85rem;
+		}
+	}
 
-        .column-3{
+	.bottom-footer {
+		background-color: #009B49;
+		color: white;
 
-          div{
+		ul {
+			.font-footer {
+				font-weight: lighter;
 
-            .btn{
-              background-color: #FBD947;
-              width: 60px;
+				li {
 
-              i{
-                color: white;
-              }
-            }
-          }
-        }
-        .column-4{
+					a {
+						text-decoration: none;
 
-            .headphone{
-              display: flex;
+					}
 
-              i{
-                font-size: 40px;
-              }
-              h5{
-                margin-left: 20px;
-              }
-              @media only screen and (max-width: 991px){
-                display: flex;
-                justify-content: center;
+				}
+			}
 
-                i{
-                  font-size: 30px;
-                }
-                h5{
-                  margin-left: 10px;
-                }
-            }
-          }
-        }
-      }
-    }
-  }
-  .section-footer{
+		}
 
-    .container{
-
-      .row{
-        .column{
-
-          @media only screen and (max-width: 991px){
-            text-align: left;
-            font-size: 18px;
-
-          }
-        }
-
-      }
-    }
-
-  }
-
-  section{
-
-    .container{
-
-      .row{
-
-        .column{
-
-          h6{
-            color: #009B49;
-          }
-
-          h5{
-            color: #009B49;
-          }
-
-          .type-bank{
-
-
-            .atm{
-              text-decoration: none;
-
-              img{
-                width: 50px;
-
-              }
-
-            }
-          }
-
-
-          p{
-            a{
-              text-decoration: none;
-            }
-          }
-          .online{
-            width: 150px;
-          }
-        }
-      }
-    }
-    .container{
-
-      .row{
-        .column{
-
-          @media only screen and (max-width: 991px){
-            text-align: left;
-            font-size: 18px;
-          }
-        }
-
-      }
-    }
-  }
-
-  .bottom-footer{
-    background-color: #009B49;
-    color: white;
-
-    ul{
-      .font-footer{
-        font-weight: lighter;
-        li{
-
-          a{
-            text-decoration: none;
-
-          }
-
-        }
-      }
-
-    }
-
-  }
+	}
 }
