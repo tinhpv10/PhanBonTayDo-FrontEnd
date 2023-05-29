@@ -20,7 +20,7 @@
 					</li>
 				</ul>
 			</div>
-			<ul class="list-categories-mobile mb-3">
+			<ul class="list-categories-mobile d-block d-lg-none mb-3">
 				<li>
 					<a class="btn-category btn btn-light rounded-pill mx-1" href="">Sản phẩm HOT</a>
 				</li>
@@ -46,7 +46,7 @@
 								</a>
 							</h5>
 							<div class="reviews">
-								<ul class="stars">
+								<ul class="stars d-flex text-secondary">
 									<li><i class='bx bxs-star'></i></li>
 									<li><i class='bx bxs-star'></i></li>
 									<li><i class='bx bxs-star'></i></li>
