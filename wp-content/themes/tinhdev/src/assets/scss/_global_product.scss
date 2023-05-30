@@ -1,0 +1,35 @@
+.products .item {
+	.box-img {
+		height: 250px;
+		width: 100%;
+		overflow: hidden;
+		display: block;
+
+		img {
+			object-fit: cover;
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
+
+.news .item img {
+	min-height: 140px;
+	height: 100%;
+	width: 100%;
+
+}
+
+.aside {
+	.post-thumbnail {
+		max-height: 50px;
+		height: 100%;
+	}
+
+	.post-title {
+		margin: 0;
+		padding: 0;
+		font-size: 13px;
+		text-align: justify;
+	}
+}

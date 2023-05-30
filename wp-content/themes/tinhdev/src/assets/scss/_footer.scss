@@ -1,0 +1,27 @@
+footer {
+	.container-fluid {
+		background-color: $primary;
+		color: white;
+	}
+
+	.footer-contact {
+		border: 2px dashed $primary;
+	}
+
+	.link, .contact, .pay-icon{
+		font-size: 14px;
+
+		span {
+			color: #84abc0;
+		}
+
+		a, i {
+			color: #84abc0;
+			transition: all .8s;
+
+			&:hover {
+				color: white;
+			}
+		}
+	}
+}

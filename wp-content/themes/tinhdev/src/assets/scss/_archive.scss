@@ -1,0 +1,52 @@
+.post-item-archive {
+	.box-img {
+		flex-basis: 30%;
+		height: 220px;
+		overflow: hidden;
+		@include mobile {
+			height: 180px;
+		}
+
+		.date {
+			border: 1px solid #f1f1f1;
+			background-color: #fff;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			-webkit-transform: translate(0, -50%);
+			-moz-transform: translate(0, -50%);
+			-ms-transform: translate(0, -50%);
+			-o-transform: translate(0, -50%);
+			transform: translate(0, -50%);
+			width: 2.85rem;
+			text-align: center;
+		}
+
+		img {
+			@include coverImage();
+		}
+	}
+
+	.info {
+		flex-basis: 70%;
+
+		.expert {
+			@include textWithEllipsis(13, 1.2, 3);
+		}
+
+		> a.viewmore {
+			font-size: 0.9rem;
+		}
+
+		.title {
+			font-size: 1.21rem;
+		}
+	}
+
+
+	a {
+		&:hover {
+			color: $danger;
+		}
+	}
+}

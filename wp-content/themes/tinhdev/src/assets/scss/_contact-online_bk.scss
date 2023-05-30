@@ -1,0 +1,78 @@
+.contact-online {
+	.button-contact {
+		a {
+			display: block;
+			position: fixed;
+			right: 0;
+			background-color: red;
+			top: 50%;
+			width: 80px;
+			height: 80px;
+			padding: 1rem;
+			-webkit-transform: translate(0, -50%);
+			-moz-transform: translate(0, -50%);
+			-ms-transform: translate(0, -50%);
+			-o-transform: translate(0, -50%);
+			transform: translate(0, -50%);
+			color: #FFF;
+
+			img {
+				max-width: 100%;
+				filter: invert(99%) sepia(64%) saturate(0%) hue-rotate(25deg) brightness(107%) contrast(101%);
+			}
+
+			&:hover {
+				img {
+					filter: invert(86%) sepia(53%) saturate(405%) hue-rotate(358deg) brightness(108%) contrast(104%);
+				}
+			}
+		}
+	}
+
+
+	.box-contact {
+		position: fixed;
+		top: 50%;
+		right: -200%;
+		-webkit-transform: translate(0, -50%);
+		-moz-transform: translate(0, -50%);
+		-ms-transform: translate(0, -50%);
+		-o-transform: translate(0, -50%);
+		transform: translate(0, -50%);
+		background-color: #FFF;
+		box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+		-webkit-transition: all .5s ease-in-out;
+		-moz-transition: all .5s ease-in-out;
+		-ms-transition: all .5s ease-in-out;
+		-o-transition: all .5s ease-in-out;
+		transition: all .5s ease-in-out;
+		z-index: 99;
+
+		.title {
+			position: relative;
+
+			.close-contact-button {
+				position: absolute;
+				top: 50%;
+				right: 10px;
+				font-size: 30px;
+				border: 1px solid #FFF;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;
+				width: 50px;
+				height: 50px;
+				transform: translate(0, -50%);
+				line-height: 50px;
+			}
+		}
+
+		&.active {
+			right: 0;
+		}
+
+		textarea {
+			border: 1px solid #CCC;
+		}
+	}
+}

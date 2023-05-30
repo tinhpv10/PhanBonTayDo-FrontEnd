@@ -1,0 +1,14 @@
+.about-us {
+
+}
+
+@media screen and (min-width: 992px) {
+	.about-us {
+		position: relative;
+		height: 33vw;
+		max-height: 640px;
+		background-position: center;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
