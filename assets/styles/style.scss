@@ -1,14 +1,13 @@
-$primary: black;
-$secondary: black;
-$purple: #b7439e;
-$light-blue: #647db4;
-$mau-gi-do: #647db4;
-
-@import url('https://fonts.googleapis.com/css2?family=Charm&family=Inter:wght@300&family=Nunito+Sans:wght@200&family=Raleway:wght@200;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Charm&family=Inter:wght@300&family=Raleway:wght@200;300&display=swap');
+$primary: #009B49;
+$secondary: #FBD947;
+$gray-110: #BDBDBD;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
 @import "../vendor/node_modules/bootstrap/scss/bootstrap.scss";
 
 @import "mixin";
+@import "break-point";
+@import "reset";
 @import "products";
+@import "pbtd-home-news";
 
 @import "pbtd-home-product";
