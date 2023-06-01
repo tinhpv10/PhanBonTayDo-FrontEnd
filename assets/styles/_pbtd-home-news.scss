@@ -1,23 +1,24 @@
-.news-home{
+.home-news {
 
-  .navbar{
+  .navbar {
 
-    .container-fluid{
+    .container-fluid {
 
-      .navbar-brand{
+      .navbar-brand {
         text-align: center;
         width: 120px;
         border-bottom: 3px solid #009B49;
 
       }
-      .title-news{
+
+      .title-news {
 
 
-        span{
+        span {
 
-          a{
+          a {
 
-            i{
+            i {
               font-size: 30px;
             }
           }
@@ -26,19 +27,19 @@
     }
   }
 
-  .container-fluid{
+  .container-fluid {
 
-    .box-news{
+    .box-news {
 
-      .content-right{
+      .content-right {
 
-        .row{
+        .row {
 
-          .col-8{
+          .col-8 {
 
-            .content-right{
+            .content-right {
 
-              p{
+              p {
                 font-size: 14px;
               }
 
@@ -46,6 +47,44 @@
           }
         }
       }
+    }
+  }
+
+  .home-news {
+  .title-section {
+    span {
+      border-bottom: 2px solid $primary;
+    }
+  }
+}
+
+  .vertical-post {
+    .box-img {
+      max-height: 300px;
+      overflow: hidden;
+
+      img {
+        @include coverImage();
+      }
+    }
+  }
+
+  .horizontal-post {
+    .title {
+      @include textWithEllipsis(16, 1.2, 2);
+    }
+
+    .box-img {
+      max-height: 135px;
+      overflow: hidden;
+
+      img {
+        @include coverImage();
+      }
+    }
+
+    .expert {
+      @include textWithEllipsis(14, 1.2, 3);
     }
   }
 }
